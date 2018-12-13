@@ -32,3 +32,21 @@ DigitalFunctions Switch01(input, debounceTime, setCondition, resCondition);
 - bool = Switch01.RisingPuls();
 - bool = Switch01.FallingPuls();
 - bool = Switch01.Toggle();
+
+## Function descriptions:
+#### IsOn()
+Check if condition is ON and implement a debounce time
+
+Returns HIGH if input condition is HIGH, else LOW
+#### IsOff()
+Check if condition is OFF and implement a debounce time
+
+Returns HIGH if input condition is LOW, else LOW 
+#### SR()
+SR flipflop where SET has priority
+
+Returns HIGH if SET condition was HIGH, LOW if RESET condition was HIGH
+#### RS()
+SR flipflop where RESET has priority
+
+Returns HIGH if SET condition was HIGH, LOW if RESET condition was HIGH
