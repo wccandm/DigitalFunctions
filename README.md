@@ -12,10 +12,10 @@ Arduino - Library for digital functions on bools.
 - bool Toggle()
 
 #### Input variables:
-- bool input
-- int debounceTime (ms)
-- bool setCondition
-- bool resetCondition
+- bool input (bool for input)
+- int debounceTime (debounce time in ms)
+- bool setCondition (set condition for output)
+- bool resetCondition (reset condition for output)
 
 #### Definition example:
 DigitalFunctions Switch01(input, debounceTime, setCondition, resCondition);
