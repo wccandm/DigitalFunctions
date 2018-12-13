@@ -59,6 +59,6 @@ If the input changes from HIGH to LOW, an impuls will be given on the output
 
 Returns HIGH for one cycle if there was a change from HIGH to LOW on the input
 ### Toggle()
-Toggle output every time theinput state changes from LOW to HIGH
+Toggle output every time the input state changes from LOW to HIGH
 
 Returns a switched status from LOW to HIGH on the output every time the input changes from LOW to HIGH
