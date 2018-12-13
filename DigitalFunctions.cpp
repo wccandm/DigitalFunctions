@@ -1,5 +1,5 @@
 /*
-  DigitalFunctions.h - Library for digital functions on bools.
+  DigitalFunctions.cpp - Library for digital functions on bools.
   Created and started by Wim Cranen, December 13, 2018.
   Version 1.0 initial release.
 */
