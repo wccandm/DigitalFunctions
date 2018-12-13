@@ -10,3 +10,11 @@ Arduino - Library for digital functions on bools.
 - bool RisingPuls()
 - bool FallingPuls()
 - bool Toggle()
+
+#### Input variables:
+- bool input
+- int debounce time (ms)
+- set condition
+- reset condition
+
+#### Definition example:
